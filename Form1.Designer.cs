@@ -49,7 +49,7 @@ namespace AlumnosManagement
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 90, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(119, 296);
+            this.menuStrip1.Size = new System.Drawing.Size(129, 296);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,7 +60,7 @@ namespace AlumnosManagement
             this.estudiantesToolStripMenuItem});
             this.registrosToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrosToolStripMenuItem.Name = "registrosToolStripMenuItem";
-            this.registrosToolStripMenuItem.Size = new System.Drawing.Size(100, 29);
+            this.registrosToolStripMenuItem.Size = new System.Drawing.Size(110, 29);
             this.registrosToolStripMenuItem.Text = "Registros";
             // 
             // consultasToolStripMenuItem
@@ -70,7 +70,7 @@ namespace AlumnosManagement
             this.estudiantesToolStripMenuItem1});
             this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(100, 29);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(110, 29);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // materiasToolStripMenuItem
@@ -78,6 +78,7 @@ namespace AlumnosManagement
             this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
             this.materiasToolStripMenuItem.Size = new System.Drawing.Size(185, 30);
             this.materiasToolStripMenuItem.Text = "Materias";
+            this.materiasToolStripMenuItem.Click += new System.EventHandler(this.materiasToolStripMenuItem_Click);
             // 
             // estudiantesToolStripMenuItem
             // 

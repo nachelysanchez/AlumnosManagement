@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlumnosManagement.Registros;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace AlumnosManagement
         public Principal()
         {
             InitializeComponent();
+        }
+
+        private void materiasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rMaterias materias = new rMaterias();
+            materias.Show();
         }
     }
 }

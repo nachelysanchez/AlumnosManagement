@@ -23,5 +23,11 @@ namespace AlumnosManagement
             rMaterias materias = new rMaterias();
             materias.Show();
         }
+
+        private void estudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rEstudiantes estudiantes = new rEstudiantes();
+            estudiantes.Show();
+        }
     }
 }

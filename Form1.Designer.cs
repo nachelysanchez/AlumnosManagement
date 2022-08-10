@@ -85,6 +85,7 @@ namespace AlumnosManagement
             this.estudiantesToolStripMenuItem.Name = "estudiantesToolStripMenuItem";
             this.estudiantesToolStripMenuItem.Size = new System.Drawing.Size(185, 30);
             this.estudiantesToolStripMenuItem.Text = "Estudiantes";
+            this.estudiantesToolStripMenuItem.Click += new System.EventHandler(this.estudiantesToolStripMenuItem_Click);
             // 
             // materiasToolStripMenuItem1
             // 

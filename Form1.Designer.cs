@@ -32,11 +32,8 @@ namespace AlumnosManagement
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estudiantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.materiasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.estudiantesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,12 +41,11 @@ namespace AlumnosManagement
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrosToolStripMenuItem,
-            this.consultasToolStripMenuItem});
+            this.registrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 90, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(129, 296);
+            this.menuStrip1.Size = new System.Drawing.Size(115, 296);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,18 +56,8 @@ namespace AlumnosManagement
             this.estudiantesToolStripMenuItem});
             this.registrosToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrosToolStripMenuItem.Name = "registrosToolStripMenuItem";
-            this.registrosToolStripMenuItem.Size = new System.Drawing.Size(110, 29);
+            this.registrosToolStripMenuItem.Size = new System.Drawing.Size(96, 29);
             this.registrosToolStripMenuItem.Text = "Registros";
-            // 
-            // consultasToolStripMenuItem
-            // 
-            this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.materiasToolStripMenuItem1,
-            this.estudiantesToolStripMenuItem1});
-            this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(110, 29);
-            this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // materiasToolStripMenuItem
             // 
@@ -86,18 +72,6 @@ namespace AlumnosManagement
             this.estudiantesToolStripMenuItem.Size = new System.Drawing.Size(185, 30);
             this.estudiantesToolStripMenuItem.Text = "Estudiantes";
             this.estudiantesToolStripMenuItem.Click += new System.EventHandler(this.estudiantesToolStripMenuItem_Click);
-            // 
-            // materiasToolStripMenuItem1
-            // 
-            this.materiasToolStripMenuItem1.Name = "materiasToolStripMenuItem1";
-            this.materiasToolStripMenuItem1.Size = new System.Drawing.Size(185, 30);
-            this.materiasToolStripMenuItem1.Text = "Materias";
-            // 
-            // estudiantesToolStripMenuItem1
-            // 
-            this.estudiantesToolStripMenuItem1.Name = "estudiantesToolStripMenuItem1";
-            this.estudiantesToolStripMenuItem1.Size = new System.Drawing.Size(185, 30);
-            this.estudiantesToolStripMenuItem1.Text = "Estudiantes";
             // 
             // Principal
             // 
@@ -123,9 +97,6 @@ namespace AlumnosManagement
         private System.Windows.Forms.ToolStripMenuItem registrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estudiantesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem estudiantesToolStripMenuItem1;
     }
 }
 
